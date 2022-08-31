@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="630dp"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport = "true"
+        tools:context=".HomeActivity">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text=" SELF CARE ACTIVITIES"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.045" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="364dp"
+            android:layout_height="77dp"
+            android:fontFamily="cursive"
+            android:text=" There is Hope even when your brain tells there isn't - John Green "
+            android:textSize="27sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.133" />
+
+        <ImageButton
+            android:id="@+id/journal"
+            android:layout_width="262dp"
+            android:layout_height="132dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/btn_j"
+            app:layout_constraintEnd_toEndOf="@+id/textView3"
+            app:layout_constraintStart_toStartOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <ImageButton
+            android:id="@+id/breather"
+            android:layout_width="262dp"
+            android:layout_height="132dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/btn_breather"
+            app:layout_constraintEnd_toEndOf="@+id/journal"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/journal"
+            app:layout_constraintTop_toBottomOf="@+id/journal" />
+
+        <ImageButton
+            android:id="@+id/book"
+            android:layout_width="262dp"
+            android:layout_height="132dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_book"
+            app:layout_constraintEnd_toEndOf="@+id/breather"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/breather"
+            app:layout_constraintTop_toBottomOf="@+id/breather" />
+
+        <ImageButton
+            android:id="@+id/sleep"
+            android:layout_width="262dp"
+            android:layout_height="132dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_sleep"
+            app:layout_constraintEnd_toEndOf="@+id/book"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/book"
+            app:layout_constraintTop_toBottomOf="@+id/book" />
+
+        <ImageButton
+            android:id="@+id/consult"
+            android:layout_width="262dp"
+            android:layout_height="132dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btn_prof"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/sleep"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/sleep"
+            app:layout_constraintTop_toBottomOf="@+id/sleep"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

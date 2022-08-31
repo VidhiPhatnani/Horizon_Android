@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".rec_book1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.7"
+        android:background="@drawable/background1"></ImageView>
+
+    <Button
+        android:id="@+id/books"
+        android:layout_width="283dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="450dp"
+        android:backgroundTint="#784231"
+        android:text="Books"
+        android:textColor="#FFFFFF"
+        app:iconTint="#FAF6F6" />
+
+    <Button
+        android:id="@+id/audiobooks"
+        android:layout_width="283dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="299dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="300dp"
+        android:backgroundTint="#50332A"
+        android:text="Audiobooks"
+        android:textColor="#FFFFFF"
+        app:rippleColor="#191818" />
+
+    <Button
+        android:id="@+id/orderBooks"
+        android:layout_width="283dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="435dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="170dp"
+        android:backgroundTint="#9C6351"
+        android:text="Order"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/booksIcon"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="265dp"
+        android:layout_marginBottom="450dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="42dp"
+        android:maxHeight="42dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/books_icon" />
+
+    <ImageView
+        android:id="@+id/audioIcon"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="273dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="299dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="300dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="42dp"
+        android:maxHeight="42dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/audiobooks_icon" />
+
+    <ImageView
+        android:id="@+id/orderIcon"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="435dp"
+        android:layout_marginEnd="256dp"
+        android:layout_marginBottom="170dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="42dp"
+        android:maxHeight="42dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/order_icon" />
+
+</RelativeLayout>

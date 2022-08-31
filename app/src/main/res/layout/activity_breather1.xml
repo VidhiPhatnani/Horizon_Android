@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        tools:context=".breather1">
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="420dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="32dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:gravity="center"
+            android:text="WATER YOUR PLANTS"
+            android:textStyle="bold"
+            android:backgroundTint="#C69198"
+            android:textSize="19sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="420dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:gravity="center"
+            android:text="EXERCISE"
+            android:backgroundTint="#BDBCE8"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:onClick="exerciseMethod"
+            app:layout_constraintEnd_toEndOf="@+id/textView10"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/textView10"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="420dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:gravity="center"
+            android:text="MEDITATE"
+            android:backgroundTint="#ABEAAF"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:onClick="meditateMethod"
+            app:layout_constraintEnd_toEndOf="@+id/textView12"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView12"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="420dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:gravity="center"
+            android:text="GO FOR A WALK"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:backgroundTint="#9194C6"
+            app:layout_constraintEnd_toEndOf="@+id/textView13"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="@+id/textView13"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="420dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:gravity="center"
+            android:backgroundTint="#ADAA83"
+            android:text="HAVE SNACKS AND DRINK WATER"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView15"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/textView15"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="420dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:gravity="center"
+            android:text="PLAN YOUR MEALS"
+            android:backgroundTint="#C69CCA"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView20"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/textView20"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="420dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:gravity="center"
+            android:text="DO A SKINCARE/HAIRCARE ROUTINE"
+            android:backgroundTint="#7DA991"
+            android:onClick="routineMethod"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView21"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/textView21"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="420dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:gravity="center"
+            android:text="LISTEN TO MUSIC"
+            android:textSize="19sp"
+            android:backgroundTint="#94CFE2"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView22"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView22"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="420dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="8dp"
+            android:text="CALL A FRIEND"
+            android:background="@color/cardview_shadow_start_color"
+            android:gravity="center"
+            android:textSize="19sp"
+            android:backgroundTint="#EAD6AB"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView23"
+            app:layout_constraintHorizontal_bias="0.857"
+            app:layout_constraintStart_toStartOf="@+id/textView23"
+            app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="420dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="0dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:gravity="center"
+            android:text="JOURNAL"
+            android:backgroundTint="#9B91E1"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView26"
+            app:layout_constraintStart_toStartOf="@+id/textView26"
+            app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="68dp"
+            android:fontFamily="serif"
+            android:text="List of Breather Activities "
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#624A48"
+            app:layout_constraintEnd_toEndOf="@+id/button2_reset"
+            app:layout_constraintStart_toStartOf="@+id/button2_reset"
+            app:layout_constraintTop_toBottomOf="@+id/button2_reset" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Need A Small Break?"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textColor="#624A48"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView_countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="00:00"
+            android:textSize="48sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView4"
+            app:layout_constraintStart_toStartOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <Button
+            android:id="@+id/button_start"
+            android:layout_width="158dp"
+            android:layout_height="71dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#AC6B38"
+            android:text="Start"
+            app:layout_constraintEnd_toEndOf="@+id/textView_countdown"
+            app:layout_constraintHorizontal_bias="0.512"
+            app:layout_constraintStart_toStartOf="@+id/textView_countdown"
+            app:layout_constraintTop_toBottomOf="@+id/textView_countdown" />
+
+        <Button
+            android:id="@+id/button2_reset"
+            android:layout_width="158dp"
+            android:layout_height="71dp"
+            android:layout_marginTop="4dp"
+            android:text="Reset"
+            android:backgroundTint="#AC6B38"
+            app:layout_constraintEnd_toEndOf="@+id/button_start"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/button_start"
+            app:layout_constraintTop_toBottomOf="@+id/button_start" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="333dp"
+            android:layout_height="87dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="Pick a breather activity from the list below, start the countdown and get refreshed!"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView2"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

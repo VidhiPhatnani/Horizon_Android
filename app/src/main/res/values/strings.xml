@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">HORIZON</string>
+    <string name="List">
+     <li> The Collected Schizophrenias By Esmé Weijun Wang, narrated by the author </li>\n\n
+     <li> Speaking of summer by Kalisha Buckhanon, narrated by Karen Chilton</li>\n\n
+     <li> I’m telling the truth, but I’m lying by Bassey Ikpi, narrated by the author</li>\n\n
+     <li> Everything here is beautiful by Mira T. Lee, narrated by a full cast</li>\n\n
+     <li> Furiously Happy By Jenny Lawson, narrated by the author</li>
+   </string>
+
+    <string name="MotivationalBooks">
+     <li> The Power of Positive Thinking </li>\n\n
+     <li> Make you bed</li>\n\n
+     <li> Awaken the Giant within</li>\n\n
+     <li> As a man thinketh</li>\n\n
+     <li> Stop worrying and start living</li>
+   </string>
+
+    <string name="DailyAffirmations">
+     <li> A beautiful day begins with a beautiful mindset. </li>\n\n
+     <li> Visualize your highest self and start showing up as them.</li>\n\n
+     <li> I am limitless and anything is possible</li>\n\n
+     <li> Great things never come from comfort zones.</li>\n\n
+   </string>
+
+    <string name="FeelGoodBooks">
+     <li> Before the coffee gets cold. </li>\n\n
+     <li> The girl who drank the moon</li>\n\n
+     <li> Ikigai</li>\n\n
+     <li> The Mother I never knew.</li>\n\n
+     <li> Good vibes, Good life</li>
+   </string>
+
+    <string name="ShortStoriesBooks">
+      <li> Whitefoot by Wendell Berry </li>\n\n
+      <li> Hills Like White Elephants</li>\n\n
+      <li> With the Beatles</li>\n\n
+      <li> The Book of Martha</li>\n\n
+   </string>
+
+    <string name="orderBooks">
+     <li><a href="https://www.amazon.in/Kindle-eBooks-MOTIVATIONAL-BOOKS-Store/s?rh=n%3A1634753031%2Cp_73%3AMOTIVATIONAL+BOOKS"> How to win friends and influence people</a></li>\n\n
+       <li><a href="https://www.amazon.in/How-Live-24-Hours-Day-ebook/dp/B06XSFF7DX/ref=sr_1_1?qid=1650990459"> How to live on 24 hours in a day</a></li>\n\n
+        <li><a href="https://www.google.co.in/aclk?sa=L">Do It Today </a></li>\n\n
+       <li><a href="https://www.elocalshops.com/products/the-power-of-your-subconscious-mind?pr_prod_strat=copurchase"> The Power of your Subconscious Mind</a></li>
+   </string>
+</resources>
